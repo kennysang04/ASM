@@ -8,6 +8,7 @@ import CartScreen from "../screens/CartScreen.tsx";
 import FavoritesScreen from "../screens/FavoritesScreen.tsx";
 import OrderHistoryScreen from "../screens/OrderHistoryScreen.tsx";
 
+
 import CustomIcon from "../components/CustomIcon.ts";
 
 
@@ -27,6 +28,7 @@ const TabNavigator = () => {
             style={styles.BlurViewStyles}/>
         )
     }}>
+      
       <Tab.Screen name="Home" component={HomeScreen} options={
         {
           tabBarIcon: ({focused, color, size}) => (
